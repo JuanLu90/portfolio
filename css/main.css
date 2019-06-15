@@ -1,0 +1,110 @@
+header{
+    position: relative;
+    height: 400px;
+    background-image: url('../img/fondo1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 3px solid;
+}
+
+.header-title{
+    padding-top: 170px;
+    font-size: 2.6em;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.header-subtitle{
+    font-size: 2.6em;
+    font-family: 'Alfa Slab One', cursive;
+    color: #FF003A;
+
+}
+.row-one a{
+    text-decoration: none;
+    color: #a5b1c2;
+}
+
+.row-one img{
+    margin-right: 10px;
+}
+
+.row-one{
+    height: 40px;
+    color: #a5b1c2;
+    text-transform: uppercase;
+    font-family: 'Lalezar', cursive;
+    font-weight: bolder;
+}
+
+.row-one span{
+    margin-top: 5px;
+}
+
+.row-one img{
+    width: 28px;
+    height: 25px;
+}
+
+.title{
+    margin-top: 80px;
+    font-size: 3em;
+    font-family: 'Teko', sans-serif;
+    color: #898b8d;
+}
+
+.about-me{
+    padding: 0px 80px;
+    font-size: 1.6em;
+    color: #898b8d;
+    text-shadow: 5px 4px 4px black;
+}
+
+
+.hobbies{
+    justify-content: space-evenly;
+}
+
+.hobbies-circle{
+    width: 100px;
+    height: 100px;
+    background-color: #1e272e;
+    border-radius: 50%;
+    transition: transform .5s;
+}
+
+.hobbies img{
+    margin-top: 20px;
+    width: 60px;
+}
+
+.hobbies-circle:hover{
+    transform: scale(1.3);
+}
+
+
+/*color fucsia FF003A */
+
+.card-body{
+    padding: 0rem;
+}
+
+.card {
+    overflow: hidden;
+}
+
+.card-image img{
+    transition: all 0.6s;
+}
+
+.card-image:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.8);
+  }
+
+
+
+
+
+
+
